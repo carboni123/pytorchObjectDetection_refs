@@ -1,3 +1,12 @@
+# !!!Attention!!!
+Segmentation has been removed.
+
+The original repository is located at github pytorch/vision/references
+Altered files were: 
+train.py (added a line to a dictionary and imported function- shouldn't cause any problems)
+coco_utils.py(added custom dataset function and removed stuff related to masking, probably will break many things)
+
+
 # Object detection reference training scripts
 
 This folder contains reference training scripts for object detection.
