@@ -227,7 +227,7 @@ def get_coco(root, image_set, transforms, mode='instances'):
 def get_custom(root, image_set, transforms, mode='keypoints'):
     PATHS = {
         "train": ("train", os.path.join("annotations", "train.json")),
-        "val": ("valid", os.path.join("annotations", "valid.json")),
+        "valid": ("valid", os.path.join("annotations", "valid.json")),
         "test": ("test", os.path.join("annotations", "test.json")),
     }
 
